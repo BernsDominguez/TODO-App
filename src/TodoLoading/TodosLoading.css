@@ -1,0 +1,22 @@
+.LoadingTodo-container {
+    background-image: linear-gradient(to right ,#553c9a, #ee4b2b, #00c2cb, #ff7f50, #553c9a);
+    background-size: 400%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 0 24px 0px;
+    height: 72px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.15);
+    animation: animated-gradient 4s infinite alternate-reverse;
+  }
+
+  @keyframes animated-gradient{
+    to{
+      background-position: 200%;
+    }
+  }
+  

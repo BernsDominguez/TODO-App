@@ -1,0 +1,78 @@
+form {
+    width: 90%;
+    max-width: 300px;
+    background: rgb(218,194,146);
+    background: linear-gradient(90deg, rgba(218,194,146,1) 0%, rgba(196,183,166,1) 100%);
+    background-color: #fff;
+    padding: 33px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+  }
+  
+  label {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #1E1E1F;
+    margin-bottom: 26px;
+  }
+  
+  textarea {
+    background-color: #F9FBFC;
+    border: 1px solid #202329;
+    border-radius: 4px;
+    box-shadow: 0px 5px 50px rgba(32, 35, 41, 0.25);
+    color: #1E1E1F;
+    font-size: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100% - 25px);
+    resize: none;
+  }
+  
+  textarea::placeholder {
+    color: #A5A5A5;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+  }
+  
+  textarea:focus {
+    outline-color: #b9936c;
+  }
+  
+  .TodoForm-buttonContainer {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .TodoForm-button {
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    color: #202329;
+    font-weight: 600;
+    border: 1px solid #b9936c;
+    width: 120px;
+    height: 48px;
+    border-radius: 2px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  
+  .TodoForm-button--add {
+    background: #b9936c;
+    color: white;
+  }
+  
+  .TodoForm-button--cancel {
+    font-weight: 400;
+  }
